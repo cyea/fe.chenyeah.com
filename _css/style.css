@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-button:vertical {
+  display: none;
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(144, 146, 152, 0.3);
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+  background-color: rgba(144, 146, 152, 0.5);
+}
+
+body {
+  margin-right: -8px;
+}
+.cover-main img {
+  width: 200px;
+}
